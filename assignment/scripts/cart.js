@@ -7,19 +7,16 @@ function addItem(newItem){
     basket.push(newItem);
     return true;
 }
+
 console.log('Basket is', basket);
 console.log('Adding bread to basket', addItem('Bread'));
 console.log('Basket is now:', basket);
 
-
-
-
-
-
-
-
-
-
+function listItems() {
+    for (let i = 0; i < basket.length; i++) {
+        console.log(basket[i]);
+    }
+}
 
 // DO NOT MODIFY
 // Used for automated testing

@@ -27,7 +27,9 @@ function empty() {
     basket.splice(0, basket.length);
 }
 
-
+empty();
+console.log('After emptying cart:');
+listItems();
 // DO NOT MODIFY
 // Used for automated testing
 try {

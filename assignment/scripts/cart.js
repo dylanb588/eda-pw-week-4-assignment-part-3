@@ -18,6 +18,16 @@ function listItems() {
     }
 }
 
+addItem('Apples');
+addItem('Honey Buns');
+console.log('Items in basket:');
+listItems();
+
+function empty() {
+    basket.splice(0, basket.length);
+}
+
+
 // DO NOT MODIFY
 // Used for automated testing
 try {
